@@ -10,7 +10,7 @@ var express = require('express'),
 
 app.use(proxy({
   target: 'http://my-angular.static-server.com' 
-});
+}));
 
 app.listen(3000);
 ```
