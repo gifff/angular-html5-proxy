@@ -1,0 +1,27 @@
+{
+  "name": "angular-html5-proxy",
+  "version": "0.1.0",
+  "description": "Simple proxy server for angular html5mode",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js test/",
+    "test": "mocha --reporter spec --bail --check-leaks test/"
+  },
+  "author": "Song Seung Geun <giff.song@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "connect-modrewrite": "^0.7.11",
+    "http-proxy": "^1.10.1"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "chai-as-promised": "^4.3.0",
+    "express": "^4.12.3",
+    "jshint": "^2.6.3",
+    "mocha": "^2.2.1",
+    "phantom": "^0.7.2",
+    "phantomjs": "^1.9.16",
+    "portfinder": "^0.4.0"
+  }
+}
