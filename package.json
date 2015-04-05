@@ -10,6 +10,13 @@
   "author": "Song Seung Geun <giff.song@gmail.com>",
   "license": "MIT",
   "repository": "gifff/angular-html5-proxy",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "README.md",
+    "index.js"
+  ],
   "keywords": [
     "angular",
     "angularjs",
