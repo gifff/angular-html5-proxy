@@ -9,6 +9,12 @@
   },
   "author": "Song Seung Geun <giff.song@gmail.com>",
   "license": "MIT",
+  "repository": "gifff/angular-html5-proxy",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "html5mode"
+  ],
   "dependencies": {
     "bluebird": "^2.9.24",
     "connect-modrewrite": "^0.7.11",
