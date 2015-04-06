@@ -29,6 +29,11 @@ exports = module.exports = function (options) {
     target: target.href
   });
 
+  proxy.on('proxyReq', function(proxyReq) {
+    proxyReq.setHeader('Host', target.host);
+    proxyReq.setHeader('Authorization', '');
+  });
+
   var proxyWeb = Promise.promisify(proxy.web, proxy);
  
   return function (req, res, next) {
