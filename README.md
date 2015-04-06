@@ -2,6 +2,7 @@
 
   Simple proxy server for angular html5mode
 
+  [![NPM Version][npm-image]][npm-url]
   [![Build Status][travis-image]][travis-url]
 
 ```js
@@ -44,6 +45,8 @@ $ npm test
 ## License
 
   [MIT](LICENSE)
-
+  
+[npm-image]: https://img.shields.io/npm/v/angular-html5-proxy.svg
+[npm-url]: https://npmjs.org/package/angular-html5-proxy
 [travis-image]: https://travis-ci.org/gifff/angular-html5-proxy.svg?branch=master
 [travis-url]: https://travis-ci.org/gifff/angular-html5-proxy
