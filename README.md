@@ -1,6 +1,6 @@
 # angular-html5-proxy
 
-  Simple proxy server for angular html5mode
+  Simple express proxy middleware for angular html5mode
 
   [![Build Status][travis-image]][travis-url]
 

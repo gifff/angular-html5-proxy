@@ -1,7 +1,7 @@
 {
   "name": "angular-html5-proxy",
   "version": "0.1.1",
-  "description": "Simple proxy server for angular html5mode",
+  "description": "Simple express proxy middleware for angular html5mode",
   "main": "index.js",
   "scripts": {
     "lint": "jshint index.js test/",
