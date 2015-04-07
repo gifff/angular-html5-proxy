@@ -1,6 +1,6 @@
 {
   "name": "angular-html5-proxy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple express proxy middleware for angular html5mode",
   "main": "index.js",
   "scripts": {
