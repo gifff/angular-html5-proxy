@@ -20,7 +20,8 @@
   "keywords": [
     "angular",
     "angularjs",
-    "html5mode"
+    "html5mode",
+    "express"
   ],
   "dependencies": {
     "bluebird": "^2.9.24",
