@@ -33,6 +33,11 @@ app.listen(3000);
 $ npm install angular-html5-proxy
 ```
 
+## Example
+
+  Here is a simple server implemetation using angular-html5-proxy:
+  [angular-simple-server](https://github.com/gifff/angular-simple-server)
+
 ## Tests
 
   To run the test suite, first install the dependencies, then run `npm test`:
