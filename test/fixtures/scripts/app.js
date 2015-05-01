@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('test', [
-  'ngRoute' 
+  'ngRoute'
 ]).config(function (
   $locationProvider,
   $routeProvider
@@ -13,7 +13,7 @@ angular.module('test', [
 
   $routeProvider
     .when('/', {
-      templateUrl: 'views/root.html'      
+      templateUrl: 'views/root.html'
     })
     .when('/sub', {
       templateUrl: 'views/sub.html'
@@ -21,7 +21,7 @@ angular.module('test', [
     .otherwise({
       redirectTo: '/'
     });
-    
+
 }).run(function ($rootScope) {
   $rootScope.$on('$routeChangeSuccess', function (e, next) {
     if (typeof window.callPhantom === 'function') {
