@@ -10,7 +10,8 @@ var express = require('express'),
     proxy = require('angular-html5-proxy');
 
 app.use(proxy({
-  target: 'http://my-angular.static-server.com' 
+  target: 'http://my-angular.static-server.com',
+  extensions: ['mp3']
 }));
 
 app.listen(3000);
@@ -33,6 +34,31 @@ app.listen(3000);
 $ npm install angular-html5-proxy
 ```
 
+## Options
+
+### target
+
+  Type: `String`
+
+  Proxy target URL. Must contain protocol(ex. http://)
+
+### extensions
+
+  Type: `Array`
+
+  Additional file extensions to serve. Followings are default extensions:
+  
+  - html
+  - js
+  - svg
+  - css
+  - png
+  - jpg
+  - eot
+  - ttf
+  - woff
+  - woff2
+  
 ## Example
 
   Here is a simple server implemetation using angular-html5-proxy:
