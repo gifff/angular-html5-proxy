@@ -28,8 +28,6 @@ exports = module.exports = function (options) {
     throw new Error('options.extensions must be an array');
   }
 
-  var additionalExts = options.extensions || [];
-
   var extensions = defaultExts.concat(additionalExts);
 
   var target = url.parse(options.target);
