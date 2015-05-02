@@ -66,6 +66,15 @@ describe('angular proxy server', function () {
       }).to.not.throw('options.target must start with http:// or https://');
     });
 
+    it('should raise error if extensions property is not an array', function () {
+      expect(function () {
+        angularProxy({
+          target: 'https://127.0.0.1',
+          extensions: 'jpeg'
+        });
+      }).to.throw('options.extensions must be an array');
+    });
+
   });
 
   describe('while running', function () {
