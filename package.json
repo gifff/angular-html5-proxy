@@ -15,7 +15,8 @@
   },
   "files": [
     "README.md",
-    "index.js"
+    "index.js",
+    "extensions.js"
   ],
   "keywords": [
     "angular",
